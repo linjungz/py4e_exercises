@@ -25,4 +25,4 @@ for c, cnt in list(d.items()):
     t.append((c, cnt/total))
 t.sort()
 for item in t:
-    print(item[0],  item[1]*100, '*' * int(item[1]*100),)
+    print(item[0],  item[1]*100, '*' * int(item[1]*100))
